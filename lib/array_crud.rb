@@ -7,6 +7,7 @@ my_array = ["Veniel", "Boum", "nou", "veo"]
 end
 
 def add_element_to_end_of_array(array, element)
+my_array = ["Veniel", "Boum", "nou", "veo"]
 my_array.push("element")
 end
 
