@@ -1,14 +1,15 @@
 def create_an_empty_array
-  array = []
+  my_array = []
 end
 
 def create_an_array
-array = ["Veniel", "Boum", "nou", "veo"]
+my_array = ["Veniel", "Boum", "nou", "veo"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["Veniel", "Boum", "nou", "veo"]
-array.push("element")
+My_array = ["Veniel", "Boum", "nou", "veo"]
+my_array.push("element")
+puts array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
